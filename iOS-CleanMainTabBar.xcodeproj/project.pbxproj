@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43A94A223E2BC4000C1C7E6 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43A94A123E2BC4000C1C7E6 /* Profile.storyboard */; };
+		F43A94A423E2BC4700C1C7E6 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43A94A323E2BC4700C1C7E6 /* Setting.storyboard */; };
+		F43A94A823E2C22A00C1C7E6 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43A94A723E2C22A00C1C7E6 /* Chat.storyboard */; };
 		F4DD9ADC23E2ACDD007E702B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD9ADB23E2ACDD007E702B /* AppDelegate.swift */; };
 		F4DD9ADE23E2ACDD007E702B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD9ADD23E2ACDD007E702B /* SceneDelegate.swift */; };
 		F4DD9AE023E2ACDD007E702B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD9ADF23E2ACDD007E702B /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F43A94A123E2BC4000C1C7E6 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		F43A94A323E2BC4700C1C7E6 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		F43A94A723E2C22A00C1C7E6 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		F4DD9AD823E2ACDD007E702B /* iOS-CleanMainTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CleanMainTabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DD9ADB23E2ACDD007E702B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DD9ADD23E2ACDD007E702B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F43A949B23E2BB7200C1C7E6 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				F43A949C23E2BB7900C1C7E6 /* Main */,
+				F43A949E23E2BBA200C1C7E6 /* Profile */,
+				F43A94A523E2C21100C1C7E6 /* Chat */,
+				F43A949F23E2BBAE00C1C7E6 /* Setting */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		F43A949C23E2BB7900C1C7E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD9AE123E2ACDD007E702B /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F43A949E23E2BBA200C1C7E6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F43A94A123E2BC4000C1C7E6 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F43A949F23E2BBAE00C1C7E6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F43A94A323E2BC4700C1C7E6 /* Setting.storyboard */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		F43A94A523E2C21100C1C7E6 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				F43A94A723E2C22A00C1C7E6 /* Chat.storyboard */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		F4DD9ACF23E2ACDD007E702B = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +105,10 @@
 		F4DD9ADA23E2ACDD007E702B /* iOS-CleanMainTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				F43A949B23E2BB7200C1C7E6 /* Scene */,
 				F4DD9ADB23E2ACDD007E702B /* AppDelegate.swift */,
 				F4DD9ADD23E2ACDD007E702B /* SceneDelegate.swift */,
 				F4DD9ADF23E2ACDD007E702B /* ViewController.swift */,
-				F4DD9AE123E2ACDD007E702B /* Main.storyboard */,
 				F4DD9AE423E2ACDF007E702B /* Assets.xcassets */,
 				F4DD9AE623E2ACDF007E702B /* LaunchScreen.storyboard */,
 				F4DD9AE923E2ACDF007E702B /* Info.plist */,
@@ -125,8 +174,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43A94A823E2C22A00C1C7E6 /* Chat.storyboard in Resources */,
 				F4DD9AE823E2ACDF007E702B /* LaunchScreen.storyboard in Resources */,
 				F4DD9AE523E2ACDF007E702B /* Assets.xcassets in Resources */,
+				F43A94A423E2BC4700C1C7E6 /* Setting.storyboard in Resources */,
+				F43A94A223E2BC4000C1C7E6 /* Profile.storyboard in Resources */,
 				F4DD9AE323E2ACDD007E702B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
